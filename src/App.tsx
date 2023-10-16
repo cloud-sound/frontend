@@ -1,14 +1,12 @@
-import Footer from 'components/layouts/Footer';
-import Navbar from 'components/layouts/Navbar';
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
+import Navbar from 'components/Navbar/Navbar';
 
 function App() {
   return (
     <>
       <BrowserRouter>
         <Navbar />
-        <Footer />
       </BrowserRouter>
     </>
   );
